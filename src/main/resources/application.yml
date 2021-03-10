@@ -1,0 +1,15 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+
+app:
+  topic:
+    employee: employee-feed
+    dlq: DLQ
+    employeevalid: employee-valid
+
+logging:
+  level:
+    root: WARN
+    org.springframework.web: INFO
+    com.by.bharadwaj: DEBUG
